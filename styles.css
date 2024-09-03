@@ -18,14 +18,16 @@ body {
     height: 90vh;
     background-color: white;
     border-radius: 5px;
-    overflow: hidden;
+    overflow: visible;
 }
-.product__photo{
-	flex-direction: column;
-	display: flex;
-	width: 50%;
-	height: 80vh;
-	border-radius: 5px;
+.product__photo {
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    border-radius: 5px;
+    position: relative; /* OUT OF THE CONTAINER */
+    transform: translateX(-10px);
 }
 .photo-container{
 	margin-top: 0px;
